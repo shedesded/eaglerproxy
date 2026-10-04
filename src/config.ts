@@ -5,8 +5,12 @@ import { Config } from "./launcher_types.js";
 
 export const config: Config = {
   adapter: {
-    name: "EaglerProxy",
-    bindHost: "0.0.0.0",
+    name: "TEMS SMP",
+    bindHost: "server: {
+  host: "nl2.plugged.host",
+  port: 46092
+},
+",
     bindPort: 8080,
     maxConcurrentClients: 20,
     // set this to false if you are unable to install sharp due to either the use of a platform that does not support native modules
