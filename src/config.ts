@@ -4,12 +4,16 @@
 import { Config } from "./launcher_types.js";
 
 export const config: Config = {
-  adapter: {
-    name: "TEMS SMP",
-    bindHost: "server: {
-  host: "nl2.plugged.host",
-  port: 46092
-},
+    adapter: {
+        name: "TEMS SMP",
+        bindHost: "0.0.0.0",
+        bindPort: 8080
+    },
+    server: {
+        host: "nl2.plugged.host",
+        port: 46092
+    },
+
 ",
     bindPort: 8080,
     maxConcurrentClients: 20,
